@@ -23,11 +23,11 @@
             on front-end;
         2) POST http://localhost:8080/city with the example body:
         {"name":"Львов", "latitude":"49.8397", "longitude":"24.0297"}
-        adds new city to the service
+        adds new city to the service;
         3) GET http://localhost:8080/event-time - returns all cities(DTO's) from the 
-        database - intended to show either sunrise or sunset or both times of the DTO
-        on front-end
-    - Validation rules for inputed values: 
-        No duplicates for the city names
-        Only numbers from -90 to 90 for latitude
-        Only numbers from -180 to 180 for longitude
+        database - intended to show either sunrise or sunset or both parameters 
+        of the DTO on front-end;
+    - Validation rules for inputed values:
+        No duplicates for the city names.
+        Only numbers from -90 to 90 for latitude.
+        Only numbers from -180 to 180 for longitude.
